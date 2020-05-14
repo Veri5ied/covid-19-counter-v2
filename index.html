@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Counter Version 2</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="container">
+        <h2>COVID-19 Cases in The World🌎</h2>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <em>Enable Dark Mode!</em>
+        </div>
+        <div class="board">
+            <div class="card a"><i class="fa fa-tachometer"></i>
+                <h5>Active Cases</h5> <span id="active"></span>
+            </div>
+            <div class="card ca"><i class="fa fa-th-list"></i>
+                <h5>Total Cases</h5> <span id="cases"></span>
+            </div>
+            <div class="card cr"><i class="fa fa-times-circle"></i>
+                <h5>Critical cases</h5> <span id="critical"></span>
+            </div>
+            <div class="card d"><i class="fa fa-times"></i>
+                <h5>Total Deaths</h5> <span id="death"></span>
+            </div>
+            <div class="card r"><i class="fa fa-check-square-o"></i>
+                <h5>Recovered Cases</h5> <span id=recovered></span>
+            </div>
+            <div class="card t"><i class="fa fa-eye"></i>
+                <h5>Total Tests Done</h5><span id="tests"></span>
+            </div>
+        </div>
+        <div class="prevention-care">
+            <div class="img-one">
+                <img src="images/physical.png" alt="">
+                <p>Avoid close <br> contact</p>
+            </div>
+            <div class="img-one">
+                <img src="images/hand-wash.png" alt="">
+                <p>Wash your <br> hands often</p>
+            </div>
+            <div class="img-one">
+                <img src="images/medical-mask.png" alt="">
+                <p>Wear facemask</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="main-footer">
+                <p class="footer-text">Made with ❤️ by <a href="https://www.twitter.com/veri5ied">Veri5ied</a></p>
+            </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
